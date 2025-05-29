@@ -40,7 +40,7 @@ class PyVirtualMachine:
         self.start_time = 0
         self.execution_time = 0
         self.instruction_stats = {}  # 指令执行统计
-
+    
     def load_program(self, constants: List[Constant], symbols: List[Symbol], 
                     instructions: List[Instruction]) -> None:
         """加载程序到虚拟机"""

@@ -178,7 +178,7 @@ def show_bytecode_file_info(bytecode_file: str) -> None:
         header_percent = (info['header_size'] / total_size) * 100
         code_percent = (info['code_size'] / total_size) * 100
         
-        print("\n大小分布:")
+        print(f"\n大小分布:")
         print(f"  文件头: {header_percent:.1f}%")
         print(f"  代码段: {code_percent:.1f}%")
         print(f"  其他数据: {100 - header_percent - code_percent:.1f}%")

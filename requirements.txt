@@ -1,0 +1,38 @@
+# PyVM项目依赖包
+# 这是一个轻量级虚拟机项目，主要依赖Python标准库
+
+# 测试框架（已包含在Python标准库中）
+# unittest
+
+# 类型注解支持（Python 3.5+已内置）
+# typing
+
+# 枚举支持（Python 3.4+已内置）
+# enum
+
+# 数据类支持（Python 3.7+已内置）
+# dataclasses
+
+# 抽象基类（已包含在Python标准库中）
+# abc
+
+# 路径操作（Python 3.4+已内置）
+# pathlib
+
+# 正则表达式（已包含在Python标准库中）
+# re
+
+# 系统相关功能（已包含在Python标准库中）
+# sys
+# os
+
+# 参数解析（已包含在Python标准库中）
+# argparse
+
+# 本项目不需要外部依赖包
+# 所有功能都使用Python标准库实现
+
+# 如果需要增强功能，可以考虑添加以下可选依赖：
+# colorama>=0.4.4    # 彩色终端输出
+# rich>=10.0.0       # 美化终端输出
+# click>=8.0.0       # 更强大的命令行界面
